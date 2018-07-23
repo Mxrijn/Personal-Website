@@ -1,16 +1,35 @@
+/* Hello someone looking trough the code of my website :) */
 body{
   margin:  0;
   padding: 0;
   background: url(bg.jpg) no-repeat;
   background-size: cover;
   backdrop-filter: blur(5px);
-  webkit-filter: blur(5px);
   background-attachment: scroll;
 }
+
+
+
 .box{
   /* backdrop-filter: blur(50px); */
   /* filter: blur(5px); */
+  -webkit-backdrop-filter: blur(5px);
+  height: auto;
   width: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  /* margin-top: 10%; */
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  border-radius: 0%;
+  border: 1px black solid;
+}
+
+.boxBlurredBoxMiddle{
+  -webkit-backdrop-filter: blur(5px);
+  width: 450px;
   background: rgba(0, 0, 0, 0.4);
   padding: 40px;
   text-align: center;
@@ -21,8 +40,9 @@ body{
   border-radius: 2%;
   border: 2px black solid;
 }
+
 .box-img{
-  border-radius: 50%;
+  border-radius: 231100px;
   border: 5px white solid;
   width: 200px;
   height: 200px;
